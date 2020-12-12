@@ -1,0 +1,125 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+a:hover{
+font-weight: bold;
+}
+ul li {
+  list-style: none;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #91178b;
+  height: 100px;
+  width: 100%;
+}
+
+.nav__lista {
+  display: inline-flex;
+  align-items: center;
+  color: #91178b;
+  padding: 100px;
+}
+
+.nav__lista > li {
+  margin-right: 40px;
+  padding: 40px;
+}
+
+.nav__img {
+  height: 100px;
+  margin: 70px;
+
+}
+/*banner*/
+.banner{
+  background: url(../img/fachada\ com\ o\ logo.png);
+    width: 100%;
+  }
+ 
+  .titulo{
+  text-align: center;
+  color: #911787;
+  padding: 30px;
+ } 
+  
+.sobre {
+  text-align: center;
+  color: #911787;
+  padding: 30px;
+} 
+  
+.card {
+  position: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.formacao {
+  text-align: center;
+  color: #911787;
+  padding: 30px;
+}
+
+.btn_faca-parte {
+  background-color: #C083B9;
+  /* margin: 2rem 15rem; */
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 3;
+  font-weight: 900;
+  max-width: 100%;
+}
+.h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.rodape__principal > * {
+  margin: 3rem 0;
+  }
+    
+  .rodape__navegacao a:hover {
+  color: #C083B9;
+  }
+
+.rodape {
+  width: 100%;
+  background-color: #724977;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+  }
+  
+  .responsivo {
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+  }
+  .responsivo img{
+   max-width: 1080px;  
+   width: 100%;
+   max-height: 500px; 
+   min-height: auto;      
+   background-size:100%;
+   background-repeat: no-repeat;
+  }
